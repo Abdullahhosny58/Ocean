@@ -1,6 +1,6 @@
 import { Pricing } from "../types/interfaces";
 
-export const pricingItems: Pricing = [
+export const pricingItems: Pricing[] = [
   {
     title: "freelancer",
     description: "The essentials to provide your best work for your clients.",

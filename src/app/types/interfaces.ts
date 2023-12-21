@@ -32,4 +32,4 @@ export interface FooterColumn {
   title: string;
   links: string[];
 }
-export type PricingMode = "monthly" | "annually ";
+export type PricingMode = "monthly" | "annually";
