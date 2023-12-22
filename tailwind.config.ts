@@ -10,9 +10,13 @@ const config: Config = {
     extend: {
       container: {
         center: true,
-        padding: "1.5rem", // => 24px
+        padding: {
+          DEFAULT: "1.5rem", // Defaults to 24px
+        },
       },
-      
+      transitionDuration: {
+        DEFAULT: "300ms", // Defaults to 0.3s
+      },
     },
   },
   plugins: [],
