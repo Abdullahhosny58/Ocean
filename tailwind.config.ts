@@ -12,9 +12,7 @@ const config: Config = {
         center: true,
         padding: "1.5rem", // => 24px
       },
-      transitionDuration: {
-        DEFAULT: "300ms", // Defaults to 0.3s
-      },
+      
     },
   },
   plugins: [],
